@@ -206,7 +206,8 @@ export const NotionPage: React.FC<types.PageProps> = ({
             <meta property='twitter:url' content={canonicalPageUrl} />
           </>
         )}
-
+        <script src="https://gumroad.com/js/gumroad.js"></script>
+        <link rel="stylesheet" href="https://sites.super.so/supply/index.css">
         <title>{title}</title>
       </Head>
 
